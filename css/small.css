@@ -1,0 +1,92 @@
+.head {
+	padding-top:5%;
+	padding-bottom: 15%;
+	height:auto;
+	text-align:center;
+}
+
+.head p {
+	text-align:center;
+	margin:auto;
+	font-size:40px;
+	line-height:45px;
+	width:80%;
+	margin-top:3%;
+}
+
+.head:hover{
+	height:auto;
+	padding-left:0;
+	transform:rotate(0deg);
+}
+
+.subtitle1{
+	width: 80%;
+	margin:auto;
+	text-align: center;
+}
+
+#id:hover {
+	padding-left:0;
+	height:auto;
+}
+
+#tv:hover {
+	padding-left:0;
+	height:auto;
+}
+
+#ig:hover {
+	padding-left:0;
+	height:auto;
+}
+
+#iw:hover {
+	padding-left:0;
+	height:auto;
+}
+
+#cm {
+	padding-top:5%;
+	padding-bottom:5%;
+	height: 680px;
+}
+
+#cm p{
+	padding:10px;
+	width: 100%;
+}
+
+.footer {
+	height: 50px;
+	line-height: 100px;
+	text-align: center;
+	color:black;
+	font-size:30px;
+}
+
+.img{
+	width: 18%;
+}
+
+.header:hover .img{
+	width: 20%;
+}
+
+.thumb {
+	width: 530px;
+}
+
+.header h3 {
+	top:60%;
+	width: 60%;
+	left:50%;
+	font-size: 50px;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+#id>h2 {
+	width: 100%;
+	text-align: center;
+	font-size:50px;
+}

@@ -1,0 +1,33 @@
+@mixin transparent($color, $alpha) {
+  $rgba: rgba($color, $alpha);
+  $ie-hex-str: ie-hex-str($rgba);
+  background-color: transparent;
+  background-color: $rgba;
+  // Sass transforme lui-même le rgba en hexadécimal pour IE
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str});
+  zoom: 1;
+}
+
+.titre {
+  font-size:70px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 960px;
+  border-radius:2px;
+  @include transparent(#000, .2);
+  margin:auto;
+  padding:50px 50px 50px 50px;
+  margin-top:-75px;
+}
+
+.thumb {
+  width: 40%;
+  float:left;
+}
+
+.container p {
+  margin: 50px;
+}
